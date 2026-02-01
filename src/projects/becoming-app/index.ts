@@ -1,0 +1,1 @@
+export { becomingAppConfig } from "./config";

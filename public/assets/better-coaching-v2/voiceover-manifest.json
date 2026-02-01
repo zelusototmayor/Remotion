@@ -1,0 +1,52 @@
+{
+  "video": "BetterCoaching-Interactive-Demo",
+  "voice": "Rachel",
+  "voiceId": "21m00Tcm4TlvDq8ikWAM",
+  "tone": "warm, calm, conversational - wellness coaching vibe",
+  "segments": [
+    {
+      "id": "hook",
+      "text": "Need a little guidance? ... Meet your AI coach.",
+      "startFrame": 0,
+      "description": "Hook - opening question",
+      "file": "voiceover-hook.mp3"
+    },
+    {
+      "id": "intro",
+      "text": "Better Coaching.",
+      "startFrame": 75,
+      "description": "Intro - brand name",
+      "file": "voiceover-intro.mp3"
+    },
+    {
+      "id": "coach-selection",
+      "text": "Browse thousands of coaches, for any life goal. ... Pick the one that resonates with you.",
+      "startFrame": 165,
+      "description": "Coach Selection - discovery",
+      "file": "voiceover-coach-selection.mp3"
+    },
+    {
+      "id": "chat-demo",
+      "text": "Get personalized advice, ... instantly. Each coach adapts to your unique journey.",
+      "startFrame": 285,
+      "description": "Chat Demo - personalization",
+      "file": "voiceover-chat-demo.mp3"
+    },
+    {
+      "id": "voice-mode",
+      "text": "Or, ... just talk. It's like having a wise friend, ... right in your pocket.",
+      "startFrame": 450,
+      "description": "Voice Mode - natural conversation",
+      "file": "voiceover-voice-mode.mp3"
+    },
+    {
+      "id": "cta",
+      "text": "Better Coaching. Download now, on the App Store.",
+      "startFrame": 585,
+      "description": "CTA - download",
+      "file": "voiceover-cta.mp3"
+    }
+  ],
+  "fps": 30,
+  "totalDuration": 675
+}

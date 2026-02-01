@@ -1,0 +1,70 @@
+{
+  "voice": "Charlie",
+  "voiceId": "ErXwobaYiN019PkySvjV",
+  "segments": [
+    {
+      "id": "hook",
+      "text": "What if your phone could help you become, who you were meant to be?",
+      "startFrame": 0,
+      "description": "Hook - opening question",
+      "file": "voiceover-hook.mp3"
+    },
+    {
+      "id": "transition",
+      "text": "Introducing the becoming app.",
+      "startFrame": 150,
+      "description": "Transition",
+      "file": "voiceover-transition.mp3"
+    },
+    {
+      "id": "carousel-1",
+      "text": "Built with 3 main foundations.",
+      "startFrame": 240,
+      "description": "Carousel slide 1 - Three pillars",
+      "file": "voiceover-carousel-1.mp3"
+    },
+    {
+      "id": "carousel-2",
+      "text": "Define your goals.",
+      "startFrame": 353,
+      "description": "Carousel slide 2 - Goals",
+      "file": "voiceover-carousel-2.mp3"
+    },
+    {
+      "id": "carousel-3",
+      "text": "AI crafts your identity.",
+      "startFrame": 441,
+      "description": "Carousel slide 3 - AI Identity",
+      "file": "voiceover-carousel-3.mp3"
+    },
+    {
+      "id": "carousel-4",
+      "text": "Daily signals keep you aligned.",
+      "startFrame": 529,
+      "description": "Carousel slide 4 - Notifications",
+      "file": "voiceover-carousel-4.mp3"
+    },
+    {
+      "id": "carousel-5",
+      "text": "Track your journey.",
+      "startFrame": 632,
+      "description": "Carousel slide 5 - Track",
+      "file": "voiceover-carousel-5.mp3"
+    },
+    {
+      "id": "carousel-6",
+      "text": "Reflect on your growth.",
+      "startFrame": 715,
+      "description": "Carousel slide 6 - Reflect",
+      "file": "voiceover-carousel-6.mp3"
+    },
+    {
+      "id": "cta",
+      "text": "The Becoming App. Download now.",
+      "startFrame": 798,
+      "description": "CTA",
+      "file": "voiceover-cta.mp3"
+    }
+  ],
+  "fps": 30
+}

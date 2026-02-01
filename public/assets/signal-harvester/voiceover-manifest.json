@@ -1,0 +1,52 @@
+{
+  "video": "SignalHarvester-Explainer",
+  "voice": "Josh",
+  "voiceId": "TxGEqnHWrfWFTfGW9XjX",
+  "tone": "energetic, natural, engaging - conversational promo vibe",
+  "segments": [
+    {
+      "id": "hook",
+      "text": "Thousands of people are asking for recommendations in comments. ... And nobody's answering them.",
+      "startFrame": 0,
+      "description": "Hook - the problem",
+      "file": "voiceover-hook.mp3"
+    },
+    {
+      "id": "intro",
+      "text": "Signal Harvester. ... Turn comments, into customers.",
+      "startFrame": 135,
+      "description": "Intro - brand reveal",
+      "file": "voiceover-intro.mp3"
+    },
+    {
+      "id": "how-it-works",
+      "text": "Three simple steps. Pick your niche. AI scans comments. Review, and reply.",
+      "startFrame": 255,
+      "description": "How It Works - 3 steps",
+      "file": "voiceover-how-it-works.mp3"
+    },
+    {
+      "id": "demo",
+      "text": "Our AI finds buyers hiding in plain sight, ... and crafts the perfect response.",
+      "startFrame": 405,
+      "description": "Demo - AI in action",
+      "file": "voiceover-demo.mp3"
+    },
+    {
+      "id": "features",
+      "text": "Intent detection. Instant replies. Multi-platform. ... Everything you need to convert.",
+      "startFrame": 555,
+      "description": "Features - key capabilities",
+      "file": "voiceover-features.mp3"
+    },
+    {
+      "id": "cta",
+      "text": "Signal Harvester. ... Test free now.",
+      "startFrame": 675,
+      "description": "CTA - try it free",
+      "file": "voiceover-cta.mp3"
+    }
+  ],
+  "fps": 30,
+  "totalDuration": 735
+}

@@ -1,0 +1,1 @@
+export { exampleProjectConfig } from "./config";

@@ -1,0 +1,1 @@
+export { aiTalkCoachConfig } from "./config";
