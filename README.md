@@ -1,54 +1,43 @@
-# Remotion video
+# Remotion Studio
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+A React and TypeScript workspace for producing promotional videos for my own applications. It includes original app demonstrations, reusable product-showcase components, animated interface scenes, and timed voiceover sequences.
 
-Welcome to your Remotion project!
+The workspace contains compositions for The Becoming App, AI Talk Coach, Better Coaching and Signal Harvester. It is a video-authoring project: these compositions illustrate app interfaces rather than operating the apps or collecting their users' information.
 
-## Commands
+## Run locally
 
-**Install Dependencies**
+Use a current Node.js release and npm.
 
-```console
-npm install
-```
-
-**Start Preview**
-
-```console
+```sh
+npm ci
 npm run dev
 ```
 
-**Render video**
+Choose a composition in Remotion Studio to preview it. To list available compositions or render one:
 
-```console
-npx remotion render
+```sh
+npx remotion compositions src/index.ts
+npx remotion render src/index.ts COMPOSITION_ID output.mp4
 ```
 
-**Upgrade Remotion**
+Use an ID listed by the first command. To check TypeScript and lint rules, run `npm run lint`.
 
-```console
-npx remotion upgrade
-```
+## Structure
 
-## Docs
+- `src/Root.tsx`: composition registration and video dimensions/durations.
+- `src/compositions/`: individual compositions and retained starter examples.
+- `src/projects/`: project-specific scenes and configuration.
+- `src/templates/`: reusable product-showcase composition system.
+- `src/shared/`: shared components, fonts and animation helpers.
+- `public/assets/`: images, recordings and audio used by compositions.
+- `scripts/`: optional voiceover-generation helpers.
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
+## Optional voiceover generation
 
-## Help
+Previewing existing compositions does not require an ElevenLabs key. The optional generation scripts call a paid external API. Set `ELEVENLABS_API_KEY` in your shell only if you intend to use that service. Never put a real key in source code, a commit or a sample environment file.
 
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
+## Licensing and media
 
-## Issues
+Original source-code contributions are licensed under MIT; see [LICENSE](LICENSE). The Remotion framework, retained upstream examples, and other dependencies retain their respective licenses. See [Remotion's license](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
 
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+The source-code license does not grant rights to third-party photos, music, voices, fonts, trademarks or other media. Check those rights separately and replace assets with material you have permission to use when adapting a composition.

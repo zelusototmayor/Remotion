@@ -1,7 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 
-const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY || "REVOKED_KEY_REMOVED";
+const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY;
+if (!ELEVENLABS_API_KEY) {
+  throw new Error("Set ELEVENLABS_API_KEY in your environment before generating voiceovers.");
+}
 
 // Trimmed script for ~30 second video
 const VOICEOVER_SCRIPT = `What if your phone could help you become who you were meant to be?

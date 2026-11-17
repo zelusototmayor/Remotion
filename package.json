@@ -1,5 +1,5 @@
 {
-  "name": "template-helloworld",
+  "name": "remotion-studio",
   "version": "1.0.0",
   "description": "My Remotion video",
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "eslint src && tsc"
   },
   "repository": {},
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "@remotion/cli": "4.0.409",
     "@remotion/google-fonts": "4.0.409",

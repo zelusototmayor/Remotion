@@ -1,7 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 
-const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY || "REVOKED_KEY_REMOVED";
+const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY;
+if (!ELEVENLABS_API_KEY) {
+  throw new Error("Set ELEVENLABS_API_KEY in your environment before generating voiceovers.");
+}
 
 // Using "Rachel" - warm, calm female voice - perfect for wellness/coaching app
 // Alternative: "Antoni" - warm, calm male voice
